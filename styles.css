@@ -1,8 +1,27 @@
 h1 {
-  color: purple;
-  background-color: red;
+  color: blue;
+  background-color: goldenrod;
 }
 
 p {
-  color: green;
+  color: purple;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+.recipe-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
 }
