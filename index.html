@@ -1,61 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Odin Recipes</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Odin Recipes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 
-<nav>
-<nav>
-  <a href="index.html">Home</a>
-  <a href="recipes/samosa.html">Samosa</a>
-  <a href="recipes/pizza.html">Pizza</a>
-  <a href="recipes/pasta.html">Pasta</a>
-  <a href="recipes/lasagna.html">Lasagna</a>
+<div class="container">
+  <!-- your recipes or featured section -->
+</div>
+
+
+  <!-- Navigation Bar -->
+ <nav class="navbar">
+
+  <div class="logo">
+    <img src="images/logo.jpg" alt="Odin Recipes Logo">
+  </div>
+
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#recipes">Recipes</a>
+    <a href="#contact">Contact</a>
+  </div>
+
 </nav>
-</nav>
 
-<h1>Odin Recipes</h1>
+<section class="hero">
+  <div class="hero-text">
+    <h1>Delicious Recipes For Every Day</h1>
+    <p>Discover easy and tasty recipes you can cook at home.</p>
+    <a href="#recipes" class="hero-btn">Explore Recipes</a>
+  </div>
+</section>
 
-<div class="recipe">
+<section class="featured-recipe">
 
-<h2>Samosa Recipe</h2>
+  <div class="featured-image">
+    <img src="images/lasagna.jpg" alt="Featured Recipe">
+  </div>
 
-<img src="../images/samosa.jpg" alt="Samosa">
+  <div class="featured-text">
+    <h2>Featured Recipe: Classic Lasagna</h2>
+    <p>
+      This delicious homemade lasagna is layered with rich meat sauce,
+      creamy cheese, and perfectly baked pasta sheets.
+      A perfect comfort meal for family dinners.
+    </p>
 
-<p>
-A crispy <span class="highlight">Indian snack</span> filled with spiced potatoes.
-</p>
+    <a href="recipes/lasagna.html" class="featured-btn">View Recipe</a>
+  </div>
 
-<h2>Ingredients</h2>
-<ul>
-<li>Potatoes</li>
-<li>Flour</li>
-<li>Spices</li>
-</ul>
+</section>
 
-<h2>Steps</h2>
-<ol>
-<li>Boil potatoes</li>
-<li>Prepare dough</li>
-<li>Fill and fry</li>
-</ol>
+<h2 class="section-title">Our Recipes</h2>
 
-</div>  <!-- VERY IMPORTANT -->
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search recipes...">
+</div>
 
-<ul>
-<li><a href="recipes/lasagna.html">Lasagna</a></li>
-<li><a href="recipes/pizza.html">Pizza</a></li>
-<li><a href="recipes/samosa.html">Samosa</a></li>
-<li><a href="recipes/pasta.html">Pasta</a></li>
-</ul>
+<div id="recipes" class="recipes-container">
 
-<footer>
-<p>© 2026 Odin Recipes Project</p>
-</footer>
+  <div class="recipe-card">
+    <img src="images/samosa.jpg" alt="Samosa">
+    <h3>Samosa</h3>
+    <a href="recipes/samosa.html">View Recipe</a>
+  </div>
+
+  <div class="recipe-card">
+    <img src="images/pizza.jpg" alt="Pizza">
+    <h3>Pizza</h3>
+    <a href="recipes/pizza.html">View Recipe</a>
+  </div>
+
+  <div class="recipe-card">
+    <img src="images/pasta.jpg" alt="Pasta">
+    <h3>Pasta</h3>
+    <a href="recipes/pasta.html">View Recipe</a>
+  </div>
+
+</div>
+
+<h2 class="section-title">Our Recipes</h2>
+
+
+  <!-- Page Heading -->
+  <h1>Odin Recipes</h1>
+
+  <!-- Recipes Section -->
+  <div id="recipes" class="recipes-container">
+
+    <div class="recipe-card">
+      <img src="images/samosa.jpg" alt="Samosa">
+      <h3>Samosa</h3>
+      <a href="recipes/samosa.html">View Recipe</a>
+    </div>
+
+    <div class="recipe-card">
+      <img src="images/pizza.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <a href="recipes/pizza.html">View Recipe</a>
+    </div>
+
+    <div class="recipe-card">
+      <img src="images/pasta.jpg" alt="Pasta">
+      <h3>Pasta</h3>
+      <a href="recipes/pasta.html">View Recipe</a>
+    </div>
+
+    <div class="recipe-card">
+      <img src="images/lasagna.jpg" alt="Lasagna">
+      <h3>Lasagna</h3>
+      <a href="recipes/lasagna.html">View Recipe</a>
+    </div>
+
+  </div>
+
+  <!-- Contact Section -->
+  <footer id="contact">
+    <p>Contact us: odinrecipes@email.com</p>
+  </footer>
 
 </body>
+</html>
