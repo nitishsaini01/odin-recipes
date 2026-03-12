@@ -1,0 +1,353 @@
+/* recipe.css - styles only for recipe pages */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #c0392b;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 0 0 12px 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f4b400;
+}
+
+.recipe-page {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.recipe-page h1 {
+  text-align: center;
+  color: #e67e22;
+  margin-bottom: 1rem;
+}
+
+.recipe-page img {
+  display: block;
+  max-width: 100%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.recipe-page h2 {
+  color: #d35400;
+  margin-top: 2rem;
+  border-bottom: 2px solid #f1c40f;
+  padding-bottom: 0.3rem;
+}
+
+.recipe-page ul,
+.recipe-page ol {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.recipe-page p {
+  margin-top: 0.8rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* recipe.css - for individual recipe pages */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #c0392b;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 0 0 12px 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f4b400;
+}
+
+/* Recipe container */
+.recipe-page {
+  max-width: 750px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Recipe title */
+.recipe-page h1 {
+  text-align: center;
+  color: #e67e22;
+  margin-bottom: 1rem;
+}
+
+/* Recipe image */
+.recipe-page img {
+  display: block;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Section titles */
+.recipe-page h2 {
+  color: #d35400;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #f1c40f;
+  padding-bottom: 0.3rem;
+}
+
+/* Paragraphs */
+.recipe-page p {
+  margin-top: 0.8rem;
+  color: #555;
+}
+
+/* Ingredients and Steps */
+.recipe-page ul,
+.recipe-page ol {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.recipe-page li {
+  margin-bottom: 8px;
+}
+
+/* Optional Tips/Notes Box */
+.recipe-page .tips {
+  background-color: #fdebd0;
+  padding: 15px;
+  border-left: 5px solid #f39c12;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .recipe-page {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+/* recipe.css - applies to all recipe pages */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #c0392b;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 0 0 12px 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f4b400;
+}
+
+/* Recipe container */
+.recipe-page {
+  max-width: 750px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+/* Recipe title */
+.recipe-page h1 {
+  text-align: center;
+  color: #e67e22;
+  margin-bottom: 1rem;
+}
+
+/* Recipe image */
+.recipe-page img {
+  display: block;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.recipe-page img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Section titles */
+.recipe-page h2 {
+  color: #d35400;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #f1c40f;
+  padding-bottom: 0.3rem;
+}
+
+/* Paragraphs */
+.recipe-page p {
+  margin-top: 0.8rem;
+  color: #555;
+}
+
+/* Ingredients and Steps */
+.ingredients, .steps {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.ingredients:hover, .steps:hover {
+  background-color: #fff3e0;
+}
+
+.ingredients li::before {
+  content: "\f2e7"; /* Fork icon */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 10px;
+  color: #e67e22;
+}
+
+.steps li::before {
+  content: "\f0ae"; /* Checklist icon */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 10px;
+  color: #d35400;
+}
+
+.ingredients li, .steps li {
+  margin-bottom: 8px;
+}
+
+/* Tips box */
+.recipe-page .tips {
+  background-color: #fdebd0;
+  padding: 15px;
+  border-left: 5px solid #f39c12;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-page .tips:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .recipe-page {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+/* Back to Top button (CSS only) */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 24px;
+  background-color: #c0392b;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: background 0.3s, transform 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #e74c3c;
+  transform: scale(1.1);
+}
+
+/* Back to Top button */
+#backToTop {
+  position: fixed;       /* Always visible, stays at bottom-right */
+  bottom: 30px;          /* Distance from bottom */
+  right: 30px;           /* Distance from right */
+  font-size: 24px;       /* Arrow size */
+  background-color: #c0392b;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 9999;         /* Make sure it’s above other elements */
+  transition: background 0.3s, transform 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #e74c3c;
+  transform: scale(1.1);
+}

@@ -11,6 +11,7 @@
 
 <body>
 
+
 <!-- Navigation Bar -->
 <nav class="navbar">
 
@@ -56,14 +57,17 @@
 </section>
 
 <!-- Recipes Title -->
+
 <h2 class="section-title">Our Recipes</h2>
 
-
+<!-- Categories -->
 <div class="categories">
+  
   <button>All</button>
   <button>Snacks</button>
   <button>Italian</button>
   <button>Quick Meals</button>
+
 </div>
 
 
@@ -75,28 +79,28 @@
 <!-- Recipes -->
 <div id="recipes" class="recipes-container">
 
-  <div class="recipe-card">
+  <div class="recipe-card" data-category="snacks">
     <img src="images/samosa.jpg" alt="Samosa">
     <h3>Samosa</h3>
-    <a href="recipes/samosa.html">View Recipe</a>
+    <a href="recipes/samosa.html" class="view-btn">View Recipe</a>
   </div>
 
-  <div class="recipe-card">
+  <div class="recipe-card" data-category="italian">
     <img src="images/pizza.jpg" alt="Pizza">
     <h3>Pizza</h3>
-    <a href="recipes/pizza.html">View Recipe</a>
+    <a href="recipes/pizza.html" class="view-btn">View Recipe</a>
   </div>
 
-  <div class="recipe-card">
+  <div class="recipe-card" data-category="italian">
     <img src="images/pasta.jpg" alt="Pasta">
     <h3>Pasta</h3>
-    <a href="recipes/pasta.html">View Recipe</a>
+    <a href="recipes/pasta.html" class="view-btn">View Recipe</a>
   </div>
 
-  <div class="recipe-card">
+  <div class="recipe-card" data-category="quick">
     <img src="images/lasagna.jpg" alt="Lasagna">
     <h3>Lasagna</h3>
-    <a href="recipes/lasagna.html">View Recipe</a>
+    <a href="recipes/lasagna.html" class="view-btn">View Recipe</a>
   </div>
 
 </div>
@@ -112,6 +116,7 @@
     <a href="#">YouTube</a>
   </div>
 </footer>
-
+<!-- Back to Top Button -->
+ 
 </body>
 </html>
